@@ -1,0 +1,72 @@
+{
+    "keywords": {
+        "description": "触发关键词列表",
+        "type": "list",
+        "item": {
+            "type": "string",
+            "description": "触发关键词"
+        },
+        "hint": "当消息中包含这些关键词时，会触发图片发送。每行一个关键词。",
+        "default": ["导管", "飞机", "A片", "打胶", "刺刀", "造人", "女优", "色图", "涩图"]
+    },
+    "custom_text": {
+        "description": "自定义回复文本",
+        "type": "string",
+        "hint": "发送图片时附带的文字内容。留空则不发送额外文字。",
+        "default": "给你一张图片："
+    },
+    "at_user": {
+        "description": "是否@触发用户",
+        "type": "bool",
+        "hint": "勾选后，发送图片时会@触发消息的用户。",
+        "default": true
+    },
+    "selected_txt_files": {
+        "description": "选择的TXT文件列表",
+        "type": "list",
+        "item": {
+            "type": "string",
+            "description": "TXT文件名（不含.txt后缀）"
+        },
+        "hint": "指定使用哪些TXT文件作为图片来源。留空则使用所有TXT文件。",
+        "default": []
+    },
+    "watermark_text": {
+        "description": "水印文本",
+        "type": "string",
+        "hint": "在发送的图片上添加的水印文字。留空则不添加水印。",
+        "default": ""
+    },
+    "watermark_font": {
+        "description": "水印字体文件名",
+        "type": "string",
+        "hint": "用于水印的字体文件名。字体文件需放在插件的font目录下。留空则使用默认字体。",
+        "default": ""
+    },
+    "show_avatar": {
+        "description": "是否显示用户头像",
+        "type": "bool",
+        "hint": "勾选后，在回复中显示触发用户的QQ头像。",
+        "default": false
+    },
+    "local_image_dir": {
+        "description": "本地图片目录路径",
+        "type": "string",
+        "hint": "指定本地图片文件夹路径，从中随机调用图片。留空则不使用本地图片。",
+        "default": ""
+    },
+    "external_api": {
+        "description": "外部图片API地址",
+        "type": "string",
+        "hint": "第三方随机图片API地址。当本地没有找到合适图片时，会调用此API获取图片。",
+        "default": "https://api.lolicon.app/setu/v2?r18=0"
+    },
+    "cache_duration": {
+        "description": "图片缓存时间（秒）",
+        "type": "int",
+        "hint": "设置图片缓存的有效期，单位为秒。默认为300秒（5分钟）。",
+        "default": 300,
+        "min": 0,
+        "max": 3600
+    }
+}

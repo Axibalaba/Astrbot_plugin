@@ -1,0 +1,50 @@
+# 插件名称，必须是英文
+name: astrbot_plugin_image_response
+
+# 插件描述
+
+desc: 基于关键词触发的图片响应插件
+
+# 插件帮助信息
+
+help: |-
+  【图片响应插件详细使用说明】
+  
+  功能介绍：
+  - 当消息中包含预设关键词时，自动发送相关图片
+  - 支持多种触发关键词和自定义配置
+  - 可通过命令管理插件行为
+  
+  触发关键词：
+  - 导管、飞机、A片、打胶、刺刀、造人、女优、色图、涩图等
+  - 更多关键词可在tu目录下的文本文件中自定义
+  
+  可用命令：
+  - /image_help: 查看本帮助信息
+  - /image_reload: 重新加载配置和关键词列表
+  
+  使用方法：
+  1. 在聊天中发送包含上述关键词的消息
+  2. 插件将自动识别并发送相关图片
+  3. 如需重新加载配置，发送/image_reload命令
+  
+  注意事项：
+  - 请遵守相关法律法规使用本插件
+  - 图片资源存储在tu目录下
+  - 可通过修改配置文件自定义触发行为
+
+# 插件版本号
+
+version: v1.0.0
+
+# 作者
+
+author: AI Assistant
+
+# 插件仓库地址（可选）
+
+repo: https://github.com/AstrBotDevs/astrbot_plugin_image_response
+
+# 插件文档地址（可选）
+
+docs: https://github.com/AstrBotDevs/astrbot_plugin_image_response/wiki
