@@ -1,22 +1,21 @@
 # AstrBot 图片响应插件
 
 ## 简介
-这是一个使用Trea CN AI变成软件基于 AstrBot 的图片响应插件，当用户发送包含特定关键词的消息时，会自动回复相关图片。
-参考了以下AstrBot插件：
+- 这是一个使用Trea CN AI变成软件基于 AstrBot 的图片响应插件，当用户发送包含特定关键词的消息时，会自动回复相关图片。
+- 参考了以下AstrBot插件：
 
-今日运势：https://github.com/NINIYOYYO/astrbot_plugin_jrys
+- 今日运势：https://github.com/NINIYOYYO/astrbot_plugin_jrys
+- 涩图插件2.0：https://github.com/FateTrial/astrbot_plugin_lolicon_image-master
 
-涩图插件2.0：https://github.com/FateTrial/astrbot_plugin_lolicon_image-master
-
-不支持使用本地图片，小白AI写的，么的精力调试本地链接的功能了
+- 不支持使用本地图片，小白AI写的，么的精力调试本地链接的功能了
 
 ## 注意事项
-若安装插件后，插件后台找不到，重起下AstrBot即可
+- 若安装插件后，插件后台找不到，重起下AstrBot即可
 
 ## 图片更换说明
-找到路径：“./astrbot_plugin_image_response/tu/”在里面添加新的图片网页路径即可
-可以自己新建“.txt”文件，在里面填写新的图片路径，不用一定在原有的基础上添加
-不支持获取本地路径图片
+- 找到路径：“./astrbot_plugin_image_response/tu/”在里面添加新的图片网页路径即可
+- 可以自己新建“.txt”文件，在里面填写新的图片路径，不用一定在原有的基础上添加
+- 不支持获取本地路径图片
 
 ## 功能特性
 
