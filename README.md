@@ -9,6 +9,34 @@
 
 - 不支持使用本地图片，小白AI写的，么的精力调试本地链接的功能了
 
+## 目录结构
+
+```
+AstrBot/
+└─ data/
+   └─ plugins/
+      └─ astrbot_plugin_image_response/
+         ├─ __pycache__
+			└─ main.cpython-312.pyc
+         ├─ avatars
+         ├─ font
+         ├─ temp
+			└─1.png
+		 ├─ tu
+			├─ ba.txt
+			├─ miku.txt
+			├─ 白圣女.txt
+			├─ 二次元.txt
+			├─ 猫羽雫.txt
+			└─ 魔卡.txt
+		 ├─ _conf_schema.json
+		 ├─ logo.png
+		 ├─ main.py
+		 ├─ metadata.yaml
+		 ├─ README.md
+         └─ requirements.txt
+```
+
 ## 效果图展示
 ![效果图展示](./temp/1.png)
 
